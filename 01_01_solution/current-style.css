@@ -3,16 +3,24 @@
   width: clamp(calc(320px - 3rem), 75%, 70ch);
   height: calc(75vh - 2.5rem);
   border: 0.5rem solid black;
-  /* display: flex; */
+
+  /* flex */
+  /* display: flex;
+  justify-content: center;
+  align-items: center; */
+
+  /* grid */
   display: grid;
-  /* justify-content: center; */
-  /* align-items: center; */
+  /* justify-items: center;
+  align-items: center; */
 }
 
 .child {
   padding: 0 2rem;
   width: 50%;
   border: 0.5rem solid red;
+
+  /* grid */
   justify-self: center;
   align-self: center;
 }
